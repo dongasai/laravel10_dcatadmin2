@@ -1,0 +1,15 @@
+services:
+  dev:
+    build:
+        dockerfile: Dockerfile.Dev
+    image: laravel10dcat2:p81dev
+    privileged: false
+    container_name: laravel10dcat2
+    volumes:
+    - ./laravel-app:/var/www/html
+    tty: true
+    restart: unless-stopped
+    ports:
+       - 32104:80
+
+
