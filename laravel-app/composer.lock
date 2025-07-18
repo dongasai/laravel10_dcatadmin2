@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e0ec4199080c7955b2188f790207f0ff",
+    "content-hash": "ef29fdba9a488b19c5db2d95ac616aff",
     "packages": [
         {
             "name": "brick/math",
@@ -633,7 +633,7 @@
         },
         {
             "name": "dongasai/dcat-admin2",
-            "version": "dev-laravel10",
+            "version": "10.0.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dongasai/dcat-admin2.git",
@@ -700,7 +700,7 @@
             ],
             "support": {
                 "issues": "https://github.com/dongasai/dcat-admin2/issues",
-                "source": "https://github.com/dongasai/dcat-admin2/tree/laravel10"
+                "source": "https://github.com/dongasai/dcat-admin2/tree/10.0.2"
             },
             "time": "2025-07-18T19:05:04+00:00"
         },
@@ -8618,9 +8618,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "dongasai/dcat-admin2": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {

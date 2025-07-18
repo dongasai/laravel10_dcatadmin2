@@ -15,6 +15,11 @@ composer require dongasai/dcat-admin2:dev-laravel10
 php artisan admin:publish
 php artisan admin:install
 
+php artisan route:clear
+
+php artisan cache:clear
+
+
 echo "# laravel10_dcatadmin2" >> README.md
 git init
 git add README.md
@@ -27,3 +32,4 @@ git clone https://github.com/dongasai/laravel11_dcatadmin2.git
 
 docker exec -it laravel10dcat2 bash
 composer require dongasai/dcat-admin2
+composer update dongasai/dcat-admin2
