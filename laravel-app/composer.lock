@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "108729161ec44de539eff500ed6dd258",
+    "content-hash": "e0ec4199080c7955b2188f790207f0ff",
     "packages": [
         {
             "name": "brick/math",
@@ -633,16 +633,16 @@
         },
         {
             "name": "dongasai/dcat-admin2",
-            "version": "10.0.1",
+            "version": "dev-laravel10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/dongasai/dcat-admin2.git",
-                "reference": "f8cab93f12e9fcd41df8e278e96a4f9a5b61fd04"
+                "reference": "1a11524da1149ddd04488d3c904807b15522c90a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/dongasai/dcat-admin2/zipball/f8cab93f12e9fcd41df8e278e96a4f9a5b61fd04",
-                "reference": "f8cab93f12e9fcd41df8e278e96a4f9a5b61fd04",
+                "url": "https://api.github.com/repos/dongasai/dcat-admin2/zipball/1a11524da1149ddd04488d3c904807b15522c90a",
+                "reference": "1a11524da1149ddd04488d3c904807b15522c90a",
                 "shasum": ""
             },
             "require": {
@@ -700,9 +700,9 @@
             ],
             "support": {
                 "issues": "https://github.com/dongasai/dcat-admin2/issues",
-                "source": "https://github.com/dongasai/dcat-admin2/tree/10.0.1"
+                "source": "https://github.com/dongasai/dcat-admin2/tree/laravel10"
             },
-            "time": "2025-07-18T16:50:42+00:00"
+            "time": "2025-07-18T19:05:04+00:00"
         },
         {
             "name": "dragonmantank/cron-expression",
@@ -8618,7 +8618,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {},
+    "stability-flags": {
+        "dongasai/dcat-admin2": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
