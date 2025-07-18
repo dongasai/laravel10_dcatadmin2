@@ -57,8 +57,9 @@ WORKDIR /var/www/html
 
 COPY . /var/www/html
 
-# RUN chmod 777 -R storage
-# RUN chmod 777 -R bootstrap
+RUN chmod 777 -R storage
+RUN chmod 777 -R bootstrap
+RUN chmod 777 -R database
 
 EXPOSE 80
 

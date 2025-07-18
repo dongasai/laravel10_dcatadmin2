@@ -10,7 +10,7 @@ issuse to [dongasai/dcat-admin2](https://github.com/dongasai/dcat-admin2)
 composer create-project --prefer-dist laravel/laravel laravel-app "10.*"
 
 
-composer require dongasai/dcat-admin2
+composer require dongasai/dcat-admin2:dev-laravel10
 
 php artisan admin:publish
 php artisan admin:install
