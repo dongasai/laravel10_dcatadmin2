@@ -28,7 +28,7 @@ git branch -M main
 git remote add origin git@github.com:dongasai/laravel10_dcatadmin2.git
 git push -u origin main
 
-git clone https://github.com/dongasai/laravel11_dcatadmin2.git
+git clone https://github.com/dongasai/laravel10_dcatadmin2.git
 
 docker exec -it laravel10dcat2 bash
 composer require dongasai/dcat-admin2
